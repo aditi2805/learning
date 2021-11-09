@@ -1,10 +1,14 @@
 package utils;
 
+import java.util.Collection;
+
 public class Print {
     public static void print(String s){
         System.out.println(s);
     }
-
+    public static void print(Collection s){
+        System.out.println(s);
+    }
     public static void print(int s){
         System.out.println(s);
     }
